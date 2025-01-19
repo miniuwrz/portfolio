@@ -67,7 +67,7 @@ const CareerSection: React.FC = () => {
             <p className="font-semibold">HCL Poland</p>
             <p className="text-sm text-gray-300 pb-2">Support Engineer</p>
             <ul className="list-disc text-sm list-inside lg:w-[750px]">
-              <li className="pb-2">Supporting around 1200 office ussers.</li>
+              <li className="pb-2">Supporting around 1200 office users.</li>
               <li className="pb-2">
                 Troubleshooting issues with Citrix VDI's, Windows, Mac, mobile
                 devices, conference rooms & printers.
