@@ -7,6 +7,7 @@ import {
   SiTailwindcss,
   SiHtml5,
 } from "react-icons/si";
+/* eslint-disable react/no-unescaped-entities */
 
 const TechSection = () => {
   return (

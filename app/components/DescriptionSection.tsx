@@ -1,4 +1,5 @@
 "use client"; // Oznacza, że kod poniżej jest uruchamiany po stronie klienta
+/* eslint-disable react/no-unescaped-entities */
 
 import React from "react";
 import { AiFillLinkedin, AiFillFile } from "react-icons/ai";

@@ -4,6 +4,7 @@ import DescriptionSection from "./DescriptionSection";
 import TechSection from "./TechSection";
 import CareerSection from "./CareerSection";
 import ToolsSection from "./ToolsSection";
+/* eslint-disable react/no-unescaped-entities */
 
 const Container = () => {
   return (

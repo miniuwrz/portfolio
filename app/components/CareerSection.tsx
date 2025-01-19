@@ -1,4 +1,5 @@
 "use client"; // Dodajemy dyrektywę na początku pliku, aby umożliwić użycie hooków
+/* eslint-disable react/no-unescaped-entities */
 
 import React, { useState, useRef, useEffect } from "react";
 import dynamic from "next/dynamic";
