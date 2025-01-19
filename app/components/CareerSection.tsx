@@ -66,7 +66,7 @@ const CareerSection: React.FC = () => {
             <p className="text-sm text-gray-300">Dec, 2023 - Present</p>
             <p className="font-semibold">HCL Poland</p>
             <p className="text-sm text-gray-300 pb-2">Support Engineer</p>
-            <ul className="list-disc list-inside lg:w-[750px]">
+            <ul className="list-disc text-sm list-inside lg:w-[750px]">
               <li className="pb-2">Supporting around 1200 office ussers.</li>
               <li className="pb-2">
                 Troubleshooting issues with Citrix VDI's, Windows, Mac, mobile
@@ -88,7 +88,7 @@ const CareerSection: React.FC = () => {
       {activeSection === "Education" && (
         <div
           ref={educationRef}
-          className="flex gap-4 border-[1px] border-borderclr p-4 mb-4 rounded-lg"
+          className="flex gap-4 border-[1px] border-borderclr p-4 rounded-lg"
         >
           <Image
             width={64}
@@ -103,7 +103,7 @@ const CareerSection: React.FC = () => {
               Zespół Szkół Energetycznych w Gdańsku nr. 13
             </p>
             <p className="text-sm text-gray-300 pb-2">IT Technician</p>
-            <ul className="list-disc list-inside lg:w-[750px]">
+            <ul className="list-disc text-sm list-inside lg:w-[750px]">
               <li className="pb-2">Programming: (JS, Python, MySQL,)</li>
               <li className="pb-2">
                 Windows Server: (Active Directory, RDP, DHCP, DNS & NAT, Group
