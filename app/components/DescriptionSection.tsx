@@ -1,8 +1,8 @@
 "use client"; // Oznacza, że kod poniżej jest uruchamiany po stronie klienta
 
 import React from "react";
-import { AiFillLinkedin, AiFillFile, AiFillMail } from "react-icons/ai";
-import { IoIosPin, IoMdMail } from "react-icons/io";
+import { AiFillLinkedin, AiFillFile } from "react-icons/ai";
+import { IoIosPin } from "react-icons/io";
 import { MdWavingHand } from "react-icons/md";
 import dynamic from "next/dynamic";
 
