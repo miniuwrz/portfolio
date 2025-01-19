@@ -5,6 +5,7 @@ import React, { useState, useRef, useEffect } from "react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 
+
 // Dynamiczny import komponentu SelectInfo z wyłączeniem SSR
 const SelectInfo = dynamic(() => import("./SelectInfo"), {
   ssr: false, // Wyłączamy SSR dla tego komponentu
@@ -53,7 +54,7 @@ const CareerSection: React.FC = () => {
       {activeSection === "Work experience" && (
         <div
           ref={workExperienceRef}
-          className="flex gap-4 border-[1px] border-borderclr p-4 rounded-lg"
+          className="flex gap-4 border-[1px] border-borderclr p-4 lg:mb:0 rounded-lg"
         >
           <Image
             width={64}

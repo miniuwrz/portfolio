@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Flag from 'react-world-flags'
+
 /* eslint-disable react/no-unescaped-entities */
 
 const Navbar = () => {
@@ -10,16 +12,16 @@ const Navbar = () => {
         <ul className="flex gap-6 py-4">
           <Link
             className="text-md hover:text-blue-700 hovertrans"
-            href={"./home"}
+            href={"/"}
           >
             <li>Home</li>
           </Link>
-          <Link
+          {/* <Link
             className="text-md hover:text-blue-700 hovertrans"
             href={"/home"}
           >
             <li>Projects</li>
-          </Link>
+          </Link> */}
         </ul>
       </div>
     </nav>

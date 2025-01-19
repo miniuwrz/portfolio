@@ -8,7 +8,7 @@ import ToolsSection from "./ToolsSection";
 
 const Container = () => {
   return (
-    <div className="px-4">
+    <div className="px-4 lg:w-[900px]">
       <Navbar />
       <DescriptionSection />
       <TechSection />
