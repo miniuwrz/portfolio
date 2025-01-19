@@ -19,7 +19,7 @@ const SelectInfo: React.FC<SelectInfoProps> = ({
     <div className="flex w-full my-6 border border-borderclr rounded-lg overflow-hidden">
       <button
         onClick={() => setActiveSection("Work experience")}
-        className={`w-1/2 p-1 transition-all duration-300 ease-in-out ${
+        className={`w-1/2 p-1 text-sm transition-all duration-300 ease-in-out ${
           activeSection === "Work experience"
             ? "bg-blue-500 text-white transform scale-105"
             : "hover:text-blue-500 text-white"
@@ -29,7 +29,7 @@ const SelectInfo: React.FC<SelectInfoProps> = ({
       </button>
       <button
         onClick={() => setActiveSection("Education")}
-        className={`w-1/2 p-1 transition-all duration-300 ease-in-out ${
+        className={`w-1/2 p-1 text-sm transition-all duration-300 ease-in-out ${
           activeSection === "Education"
             ? "bg-blue-500 text-white transform scale-105"
             : "hover:text-blue-500 text-white"

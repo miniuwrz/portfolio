@@ -27,7 +27,7 @@ const TechSection = () => {
             >
               <RiNextjsFill />
             </li>
-            <p className="text-sm mt-3">Next.JS</p>
+            <p className="text-sm mt-3">Next.js</p>
           </div>
         </Link>
         <Link

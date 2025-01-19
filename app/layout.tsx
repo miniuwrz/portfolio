@@ -29,7 +29,7 @@ export default function RootLayout({
           starCount={2000}
           starColor={[255, 255, 255]}
           speedFactor={0.012}
-          backgroundColor="black"
+          backgroundColor="#04050E"
         />
         {children}
       </body>

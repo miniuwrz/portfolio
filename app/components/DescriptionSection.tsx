@@ -29,10 +29,9 @@ const DescriptionSection = () => {
         </div>
       </div>
       <p className="w-full max-w-xl md:w-max py-6 text-sm">
-        I’m an IT specialist combining experience in technical support with a
-        passion for programming. I specialize in system diagnostics, hardware
-        configuration, and developing solutions, particularly with JavaScript
-        and React.
+        I'm an IT specialist with experience in technical support, system
+        diagnostics, hardware configuration, and developing solutions using
+        JavaScript and Next.js.
       </p>
       <div className="flex gap-6 text-lg justify-between sm:justify-start">
         <a
