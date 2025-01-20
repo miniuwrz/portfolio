@@ -6,14 +6,18 @@ import React from "react";
 // Definicja typów dla propsów
 interface SelectInfoProps {
   activeSection: "Work experience" | "Education" | null;
+
   setActiveSection: React.Dispatch<
     React.SetStateAction<"Work experience" | "Education" | null>
   >;
+
+  pl: boolean;
 }
 
 const SelectInfo: React.FC<SelectInfoProps> = ({
   activeSection,
   setActiveSection,
+  pl,
 }) => {
   return (
     <div className="flex w-full my-6 border border-borderclr rounded-lg overflow-hidden">
@@ -25,7 +29,7 @@ const SelectInfo: React.FC<SelectInfoProps> = ({
             : "hover:text-blue-500 text-white"
         }`}
       >
-        <p>Work experience</p>
+        <p>{pl ? "Doświadczenie zawodowe" : "Work experience"}</p>
       </button>
       <button
         onClick={() => setActiveSection("Education")}
@@ -35,7 +39,7 @@ const SelectInfo: React.FC<SelectInfoProps> = ({
             : "hover:text-blue-500 text-white"
         }`}
       >
-        <p>Education</p>
+        <p>{pl ? "Edukacja" : "Education"}</p>
       </button>
     </div>
   );

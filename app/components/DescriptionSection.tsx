@@ -12,14 +12,18 @@ const ClipboardButton = dynamic(() => import("./ClipboardButton"), {
   ssr: false, // Wyłączenie serwerowego renderowania (tylko po stronie klienta)
 });
 
-const DescriptionSection = () => {
+interface ContainerProps {
+  pl: boolean; // Przykład, że pl jest typu string, zmień typ według potrzeby
+}
+
+const DescriptionSection: React.FC<ContainerProps> = ({ pl }) => {
   return (
     <div>
       <div className="flex items-center gap-8">
         <p className="h-[100px] w-[100px] flex-shrink-0 rounded-full bg-white"></p>
         <div className="w-max-content">
           <h1 className="text-2xl flex items-center gap-2">
-            Hey! I'm Dominik
+            {pl ? "Hej! Tu Dominik" : "Hey! I'm Dominik"}
             <MdWavingHand className="text-[#F1C27D]" />
           </h1>
           <p className="text-sm text-gray-300">Support Engineer</p>
@@ -29,9 +33,9 @@ const DescriptionSection = () => {
         </div>
       </div>
       <p className="w-full max-w-xl md:w-max py-6 text-sm">
-        I'm an IT specialist with experience in technical support, system
-        diagnostics, hardware configuration, and developing solutions using
-        JavaScript and Next.js.
+        {pl
+          ? "Jestem specjalistą IT z doświadczeniem w zakresie wsparcia technicznego, diagnostyki systemów, konfiguracji sprzętu oraz tworzenia rozwiązań przy użyciu JavaScript i Next.js"
+          : "I'm an IT specialist with experience in technical support, system diagnostics, hardware configuration, and developing solutions using JavaScript and Next.js"}
       </p>
       <div className="flex gap-6 text-lg justify-between sm:justify-start">
         <a
@@ -40,7 +44,7 @@ const DescriptionSection = () => {
           className="border-[1px] hovertrans rounded-lg border-borderclr py-1 px-2"
         >
           <button className="flex items-center gap-2">
-            <p className="font-medium text-[12px]">Resume</p>
+            <p className="font-medium text-[12px]">{pl ? "CV" : "Resume"}</p>
             <AiFillFile />
           </button>
         </a>

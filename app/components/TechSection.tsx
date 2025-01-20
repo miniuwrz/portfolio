@@ -10,10 +10,16 @@ import {
 } from "react-icons/si";
 /* eslint-disable react/no-unescaped-entities */
 
-const TechSection = () => {
+interface ContainerProps {
+  pl: boolean; // Przykład, że pl jest typu string, zmień typ według potrzeby
+}
+
+const TechSection: React.FC<ContainerProps> = ({ pl }) => {
   return (
     <div className="py-6">
-      <h1 className="font-bold">My tech stack:</h1>
+      <h1 className="font-bold">
+        {pl ? "Mój stack technologiczny" : "My tech stack:"}
+      </h1>
       <ul className="flex flex-wrap max-608:justify-evenly sm:justify-start md:justify-between gap-4 mt-6 text-6xl">
         <Link
           target="_blank"
@@ -106,7 +112,7 @@ const TechSection = () => {
             >
               <SiHtml5 />
             </li>
-            <p className="text-sm mt-3">HTML5</p>
+            <p className="text-sm mt-3">HTML</p>
           </div>
         </Link>
       </ul>
