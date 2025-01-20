@@ -83,11 +83,11 @@ const CareerSection: React.FC<ContainerProps> = ({ pl }) => {
               <li className="pb-2">
                 {pl
                   ? "Rozwiązywanie problemów z Citrix VDI, Windows, Mac, urządzeniami mobilnymi, salami konferencyjnymi i drukarkami."
-                  : "Troubleshooting issues with Citrix VDI's, Windows, Mac, mobile devices, conference rooms & printers."}
+                  : "Troubleshooting issues with Citrix VDIs, Windows, Mac, mobile devices, conference rooms & printers."}
               </li>
               <li className="pb-2">
                 {pl
-                  ? "Otwarte, zarządzanie i zamykanie zgłoszeń serwisowych i incydentów w ServiceNow."
+                  ? "Otwieranie, zamykanie i zarządzanie zgłoszeniami serwisowymi i incydentami w ServiceNow."
                   : "Opening, managing, and closing service requests and incidents in ServiceNow."}
               </li>
               <li>
