@@ -63,7 +63,8 @@ const CareerSection: React.FC<ContainerProps> = ({ pl }) => {
           <Image
             width={64}
             height={64}
-            src="/hcl-logo.jpg"
+            src="/hcl-logo.jpeg"
+            quality={100}
             alt={pl ? "HCL Polska" : "HCL Poland"} // Dynamiczne tłumaczenie alt
             className="h-16 w-16 mr-4 rounded-full bg-white flex-shrink-0"
           ></Image>

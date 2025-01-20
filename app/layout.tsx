@@ -27,7 +27,7 @@ export default function RootLayout({
       >
         <Starfield
           starCount={2000}
-          starColor={[255, 255, 255]}
+          starColor={[201, 214, 234]}
           speedFactor={0.012}
           backgroundColor="#04050E"
         />
