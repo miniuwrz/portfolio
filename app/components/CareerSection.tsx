@@ -72,9 +72,7 @@ const CareerSection: React.FC<ContainerProps> = ({ pl }) => {
               {pl ? "Grudzień, 2023 - Obecnie" : "December, 2023 - Present"}
             </p>
             <p className="font-semibold">HCL Poland</p>
-            <p className="text-sm text-gray-300 pb-2">
-              {pl ? "Inżynier wsparcia" : "Support Engineer"}
-            </p>
+            <p className="text-sm text-gray-300 pb-2">Support Engineer</p>
             <ul className="list-disc text-sm list-inside lg:w-[745px]">
               <li className="pb-2">
                 {pl
