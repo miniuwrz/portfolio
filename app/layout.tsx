@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} bg-[#04050E] text-white antialiased overflow-y-auto`}
+        className={`${poppins.className} bg-[#04050E] lg: zoom-110 text-white antialiased overflow-y-auto`}
       >
         <Starfield
           starCount={2000}

@@ -16,14 +16,20 @@ export default {
       screens: {
         "max-608": { max: "608px" },
       },
+      scale: {},
     },
   },
   plugins: [
-    function ({
-      addComponents,
-    }: {
+    function (context: {
       addComponents: (components: Record<string, any>) => void;
+      addUtilities: (
+        utilities: Record<string, any>,
+        options?: Record<string, any>
+      ) => void;
     }) {
+      const { addComponents, addUtilities } = context;
+
+      // Dodanie niestandardowych klas komponentów
       addComponents({
         ".hovertrans": {
           transitionProperty: "all", // Wszystkie właściwości
@@ -35,6 +41,16 @@ export default {
           transform: "scale(1.1)", // Zmiana transformacji na hover (np. powiększenie)
         },
       });
+
+      // Dodanie klasy `zoom-110` dla właściwości zoom
+      addUtilities(
+        {
+          ".zoom-110": {
+            zoom: "1.1", // Skalowanie o 10% w przeglądarkach obsługujących zoom
+          },
+        },
+        { variants: ["responsive"] } // Obsługa wariantów responsywnych
+      );
     },
   ],
 } satisfies Config;
