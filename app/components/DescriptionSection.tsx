@@ -41,8 +41,8 @@ const DescriptionSection: React.FC<ContainerProps> = ({ pl }) => {
       </div>
       <p className="w-full max-w-xl md:w-max py-6 text-sm">
         {pl
-          ? "Jestem specjalistą IT z doświadczeniem w zakresie wsparcia technicznego, diagnostyki systemów, konfiguracji sprzętu oraz tworzenia rozwiązań przy użyciu JavaScript i Next.js"
-          : "I'm an IT specialist with experience in technical support, system diagnostics, hardware configuration, and developing solutions using JavaScript and Next.js"}
+          ? "Jestem specjalistą IT z doświadczeniem w administracji systemami, monitoringu infrastruktury, wirtualizacji i skryptach w PowerShell i Pythonie. Rozwijam się w Azure i Kubernetes."
+          : "I'm an IT specialist with experience in system administration, infrastructure monitoring, virtualization, and scripting with PowerShell and Python. Currently developing in Azure and Kubernetes."}
       </p>
       <div className="flex gap-6 text-lg justify-between sm:justify-start">
         <a

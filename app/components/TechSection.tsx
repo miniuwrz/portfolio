@@ -25,7 +25,7 @@ const TechSection: React.FC<ContainerProps> = ({ pl }) => {
         >
           <div className="flex flex-col items-center gap-">
             <li
-              className="flex items-center justify-center border-[1px] w-32 h-32 border-borderclr p-4 rounded-lg hovertrans"
+              className="flex items-center justify-center border-[1px] w-32 h-32 border-borderclr p-4 rounded-lg hovertrans hover:text-[#0078D4]"
               title="Next.js"
             >
               <FaWindows />
@@ -40,7 +40,7 @@ const TechSection: React.FC<ContainerProps> = ({ pl }) => {
         >
           <div className="flex flex-col items-center gap-">
             <li
-              className="flex items-center justify-center border-[1px] w-32 h-32 border-borderclr p-4 rounded-lg hovertrans hover:text-[#61dbfb]"
+              className="flex items-center justify-center border-[1px] w-32 h-32 border-borderclr p-4 rounded-lg hovertrans hover:text-[#0078D4]"
               title="React"
             >
               <FaLinux />
@@ -56,7 +56,7 @@ const TechSection: React.FC<ContainerProps> = ({ pl }) => {
         >
           <div className="flex flex-col items-center gap-">
             <li
-              className="flex items-center justify-center border-[1px] w-32 h-32 border-borderclr p-4 rounded-lg hovertrans hover:text-[#f0db4f]"
+              className="flex items-center justify-center border-[1px] w-32 h-32 border-borderclr p-4 rounded-lg hovertrans hover:text-[#0078D4]"
               title="JavaScript"
             >
               <VscAzure />
@@ -104,7 +104,7 @@ const TechSection: React.FC<ContainerProps> = ({ pl }) => {
         >
           <div className="flex flex-col items-center gap-">
             <li
-              className="flex items-center justify-center border-[1px] w-32 h-32 border-borderclr p-4 rounded-lg hovertrans hover:text-[#E44D26]"
+              className="flex items-center justify-center border-[1px] w-32 h-32 border-borderclr p-4 rounded-lg hovertrans hover:text-[#3776AB]"
               title="HTML5"
             >
               <FaPython />
