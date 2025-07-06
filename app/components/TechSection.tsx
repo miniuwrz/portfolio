@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { RiNextjsFill } from "react-icons/ri";
 import {
   FaWindows,
   FaLinux,
