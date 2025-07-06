@@ -3,11 +3,11 @@ import Link from "next/link";
 import {
   FaWindows,
   FaLinux,
-  SiVmware,
   AiOutlineKubernetes,
   FaPython,
 } from "react-icons/fa";
 import { VscAzure } from "react-icons/vsc";
+import { SiVmware } from "react-icons/si";
 
 /* eslint-disable react/no-unescaped-entities */
 
