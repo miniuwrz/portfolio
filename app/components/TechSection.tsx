@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { RiNextjsFill } from "react-icons/ri";
-import { FaReact } from "react-icons/fa";
+import { FaWindows } from "react-icons/fa";
 import {
   SiTypescript,
   SiJavascript,
@@ -46,7 +46,7 @@ const TechSection: React.FC<ContainerProps> = ({ pl }) => {
               className="flex items-center justify-center border-[1px] w-32 h-32 border-borderclr p-4 rounded-lg hovertrans hover:text-[#61dbfb]"
               title="React"
             >
-              <FaReact />
+              <FaWindows />
             </li>
             <p className="text-sm mt-3">React</p>
           </div>
