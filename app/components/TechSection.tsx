@@ -1,7 +1,13 @@
 import React from "react";
 import Link from "next/link";
 import { RiNextjsFill } from "react-icons/ri";
-import { FaWindows } from "react-icons/fa";
+import {
+  FaWindows,
+  FaLinux,
+  VscAzure,
+  SiVmware,
+  AiOutlineKubernetes,
+} from "react-icons/fa";
 import {
   SiTypescript,
   SiJavascript,
@@ -31,9 +37,9 @@ const TechSection: React.FC<ContainerProps> = ({ pl }) => {
               className="flex items-center justify-center border-[1px] w-32 h-32 border-borderclr p-4 rounded-lg hovertrans"
               title="Next.js"
             >
-              <RiNextjsFill />
+              <FaWindows />
             </li>
-            <p className="text-sm mt-3">Next.js</p>
+            <p className="text-sm mt-3">Windows</p>
           </div>
         </Link>
         <Link
@@ -46,9 +52,9 @@ const TechSection: React.FC<ContainerProps> = ({ pl }) => {
               className="flex items-center justify-center border-[1px] w-32 h-32 border-borderclr p-4 rounded-lg hovertrans hover:text-[#61dbfb]"
               title="React"
             >
-              <FaWindows />
+              <FaLinux />
             </li>
-            <p className="text-sm mt-3">React</p>
+            <p className="text-sm mt-3">Linux</p>
           </div>
         </Link>
 
@@ -62,9 +68,9 @@ const TechSection: React.FC<ContainerProps> = ({ pl }) => {
               className="flex items-center justify-center border-[1px] w-32 h-32 border-borderclr p-4 rounded-lg hovertrans hover:text-[#f0db4f]"
               title="JavaScript"
             >
-              <SiJavascript />
+              <VscAzure />
             </li>
-            <p className="text-sm mt-3">JavaScript</p>
+            <p className="text-sm mt-3">Azure</p>
           </div>
         </Link>
 
@@ -78,9 +84,9 @@ const TechSection: React.FC<ContainerProps> = ({ pl }) => {
               className="flex items-center justify-center border-[1px] w-32 h-32 border-borderclr p-4 rounded-lg hovertrans hover:text-[#3178c6]"
               title="TypeScript"
             >
-              <SiTypescript />
+              <SiVmware />
             </li>
-            <p className="text-sm mt-3">TypeScript</p>
+            <p className="text-sm mt-3">VMware</p>
           </div>
         </Link>
 
@@ -94,9 +100,9 @@ const TechSection: React.FC<ContainerProps> = ({ pl }) => {
               className="flex items-center justify-center border-[1px] w-32 h-32 border-borderclr p-4 rounded-lg hovertrans hover:text-cyan-400"
               title="Tailwind CSS"
             >
-              <SiTailwindcss />
+              <AiOutlineKubernetes />
             </li>
-            <p className="text-sm mt-3">TailwindCSS</p>
+            <p className="text-sm mt-3">Kubernetes</p>
           </div>
         </Link>
 
@@ -110,9 +116,9 @@ const TechSection: React.FC<ContainerProps> = ({ pl }) => {
               className="flex items-center justify-center border-[1px] w-32 h-32 border-borderclr p-4 rounded-lg hovertrans hover:text-[#E44D26]"
               title="HTML5"
             >
-              <SiHtml5 />
+              <FaPython />
             </li>
-            <p className="text-sm mt-3">HTML</p>
+            <p className="text-sm mt-3">Python</p>
           </div>
         </Link>
       </ul>
