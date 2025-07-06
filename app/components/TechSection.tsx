@@ -7,13 +7,9 @@ import {
   VscAzure,
   SiVmware,
   AiOutlineKubernetes,
+  FaPython,
 } from "react-icons/fa";
-import {
-  SiTypescript,
-  SiJavascript,
-  SiTailwindcss,
-  SiHtml5,
-} from "react-icons/si";
+
 /* eslint-disable react/no-unescaped-entities */
 
 interface ContainerProps {
