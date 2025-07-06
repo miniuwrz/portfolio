@@ -1,13 +1,9 @@
 import React from "react";
 import Link from "next/link";
-import {
-  FaWindows,
-  FaLinux,
-  AiOutlineKubernetes,
-  FaPython,
-} from "react-icons/fa";
+import { FaWindows, FaLinux, FaPython } from "react-icons/fa";
 import { VscAzure } from "react-icons/vsc";
 import { SiVmware } from "react-icons/si";
+import { AiOutlineKubernetes } from "react-icons/ai";
 
 /* eslint-disable react/no-unescaped-entities */
 
