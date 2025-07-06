@@ -6,7 +6,7 @@ import { AiFillLinkedin, AiFillFile, AiFillGithub } from "react-icons/ai";
 import { IoIosPin } from "react-icons/io";
 import { MdWavingHand } from "react-icons/md";
 import dynamic from "next/dynamic";
-import Image from "next/image"
+import Image from "next/image";
 
 // Dynamiczne importowanie funkcji kopiowania tylko po stronie klienta
 const ClipboardButton = dynamic(() => import("./ClipboardButton"), {
@@ -21,14 +21,19 @@ const DescriptionSection: React.FC<ContainerProps> = ({ pl }) => {
   return (
     <div>
       <div className="flex items-center gap-8">
-        
-        <Image width={100} height={100} alt="My photo" src="/me.jpg" className="h-[100px] w-[100px] flex-shrink-0 rounded-full bg-white"></Image>
+        <Image
+          width={100}
+          height={100}
+          alt="My photo"
+          src="/me.jpg"
+          className="h-[100px] w-[100px] flex-shrink-0 rounded-full bg-white"
+        ></Image>
         <div className="w-max-content">
           <h1 className="text-2xl flex items-center gap-2">
             {pl ? "Hej! Tu Dominik" : "Hey! I'm Dominik"}
             <MdWavingHand className="text-[#F1C27D]" />
           </h1>
-          <p className="text-sm text-gray-300">Support Engineer</p>
+          <p className="text-sm text-gray-300">IT Support Specialist</p>
           <p className="text-sm flex items-center gap-2 text-gray-300">
             <IoIosPin /> Gdańsk, Poland
           </p>
